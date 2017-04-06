@@ -134,7 +134,7 @@ CREATE TABLE `wp_options` (
   `autoload` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=185 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=211 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -176,7 +176,7 @@ INSERT INTO `wp_options` VALUES
 (30,'hack_file','0','yes'),
 (31,'blog_charset','UTF-8','yes'),
 (32,'moderation_keys','','no'),
-(33,'active_plugins','a:0:{}','yes'),
+(33,'active_plugins','a:1:{i:0;s:41:\"wordpress-importer/wordpress-importer.php\";}','yes'),
 (34,'category_base','','yes'),
 (35,'ping_sites','http://rpc.pingomatic.com/','yes'),
 (36,'comment_max_links','2','yes'),
@@ -284,7 +284,7 @@ LOCK TABLES `wp_postmeta` WRITE;
 /*!40000 ALTER TABLE `wp_postmeta` DISABLE KEYS */;
 INSERT INTO `wp_postmeta` VALUES
 (1,2,'_wp_page_template','default'),
-(2,1,'_edit_lock','1491490992:1'),
+(2,1,'_edit_lock','1491491017:1'),
 (3,1,'_edit_last','1'),
 (7,7,'_wp_attached_file','2017/04/16210674244_fdada5edb2_h.jpg'),
 (8,7,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:1600;s:6:\"height\";i:900;s:4:\"file\";s:36:\"2017/04/16210674244_fdada5edb2_h.jpg\";s:5:\"sizes\";a:4:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:36:\"16210674244_fdada5edb2_h-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:36:\"16210674244_fdada5edb2_h-300x169.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:169;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:36:\"16210674244_fdada5edb2_h-768x432.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:432;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:37:\"16210674244_fdada5edb2_h-1024x576.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:576;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}');
@@ -553,4 +553,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-04-06 17:03:29
+-- Dump completed on 2017-04-06 17:14:00

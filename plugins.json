@@ -1,1 +1,10 @@
-[]
+{
+    "wordpress-importer\/wordpress-importer.php": {
+        "name": "WordPress Importer",
+        "path": "wordpress-importer\/wordpress-importer.php",
+        "version": "0.6.3",
+        "active": true,
+        "source": "wordpress.org",
+        "handle": "wordpress-importer"
+    }
+}
