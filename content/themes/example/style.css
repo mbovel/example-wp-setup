@@ -1,0 +1,17 @@
+/*
+Theme Name: Example
+Description: An example theme
+Author: Admin Example <admin@example.com>
+Version: 1
+*/
+
+body {
+	margin: 0 auto;
+	max-width: 40em;
+	padding: 1em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
